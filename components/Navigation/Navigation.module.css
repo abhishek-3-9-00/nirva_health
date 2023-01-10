@@ -1,0 +1,42 @@
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  padding: 32px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #035156;
+}
+
+.nav__image {
+  width: 50%;
+}
+
+.nav__info {
+  display: flex;
+  align-items: center;
+  color: #035156;
+}
+
+.nav__info__left {
+  margin-right: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__info__left p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+}
+
+.nav__info__left span {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+}
